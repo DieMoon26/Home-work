@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url("Images/Group20922.png") no-repeat center; 
+
+}
+
+.container {
+max-width: 1200px;
+margin: auto;
+}
+
+.img-logo {
+    margin-right: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: 'Gilroy', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    padding: 15px 140px;
+}
+
+h1 {
+    color: #fff;
+    font-weight: bold;
+font-size: 50px;
+line-height: 62px;
+text-align: center;
+text-transform: uppercase;
+}
+
+.h1-bot {
+    width: 83.15px;
+    border: 1px #FCE558 solid;
+}
+
+.strong {
+    font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+text-transform: uppercase;
+}
+
+.h2-title {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+}
+
+
+.yellow {
+    color: #FCE558;
+}
+
+.features-items {
+    width: 285px;
+    height: 125px;
+    background: #D3CFDD;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-left: 32px;
+    width: 285px;
+}
+
+.features {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 39px;
+
+}
+
+.features-desc {
+    font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+margin-top: 15px;
+padding: 10px;
+}
+
+.circle {
+    width: 44px;
+    height: 44px;
+    background: #FCE558;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.date-time {
+    display: flex;
+    align-items: center;
+    color: #fff;
+margin-top: 40px;
+justify-content: center;
+}
+
+.span-date-time {
+    font-weight: bold;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+}
+
+.img-date-time{
+margin-right: 20px;
+}
+
+.button-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.button {
+    width: 254px;
+height: 56px;
+    background: #FFFFFF;
+border-radius: 30px;
+display: block;
+text-decoration: none;
+text-align: center;
+padding-top: 16px;
+margin: 30px;
+margin-top: 49px;
+color: black;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+}
+
+textarea {
+    font-size: 18px;
+    line-height: 22px;
+    resize: none;
+}
+
+::placeholder {
+    color: black;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+.button-yellow {
+    background: linear-gradient(60deg, #FAD264, #FCE558);
+}
+
+.text-bot-title {
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.bottom-header-text {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    margin-top: 47px;
+    margin-bottom: 70px;
+}
